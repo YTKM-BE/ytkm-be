@@ -46,7 +46,11 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'corsheaders',
     
-    'myservice',
+    'schedules',
+    'medicines',
+    'scraps',
+    'tags',
+    'users',
 ]
 
 AUTH_USER_MODEL = "myservice.MyUser"
